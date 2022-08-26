@@ -1,0 +1,170 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+/* menu bar */
+.menu-bar {
+   position: fixed;
+   top: 0;
+   list-style: none;
+   overflow: hidden;
+   z-index: 1;
+   width: 100%;
+   background: #fff;
+   box-shadow: 3px 3px 4px gray;
+}
+
+.menu-bar li {
+   padding: 20px;
+   text-decoration: none;
+   float: right;
+
+}
+
+.menu-bar li:hover {
+   background: gray;
+}
+
+span {
+   padding: 20px;
+   float: left;
+}
+
+span p {
+   display: inline;
+}
+
+b, .menu-bar span p, a {
+   letter-spacing: 5px;
+   font-size: 1.3em;
+}
+
+.menu-bar li a {
+   text-decoration: none;
+   color: #000;
+}
+
+/* body */
+.main {
+   margin-top: 60px;
+   background: #fff;
+   position: relative;
+   padding: 10px;
+   width: 100%;
+}
+
+.cover {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.image {
+   margin: 20px auto;
+   width: 100%;
+}
+
+.kid {
+   position: relative;
+   float: left;
+   margin: 15px 15px;
+   width: 327px;
+   height: 250px;
+   overflow: hidden;
+   border-radius: 3px;
+   cursor: pointer;
+   box-shadow: 2px 2px 3px rgb(192, 192, 192);
+}
+
+.kid:hover {
+   transform: scale(1.025);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+   padding: 20px 10px;
+   border-bottom: 2px solid #000;
+}
+
+h2 {
+   border-radius: 0 0 5px 0;
+   top: 0;
+   padding: 10px 20px;
+   background: rgb(185, 185, 185);
+   position: absolute;
+}
+
+h2:hover {
+   background: gray;
+}
+
+.main p {
+   text-align: justify;
+   padding: 20px 0;
+   letter-spacing: 0.5px;
+}
+
+.content {
+   padding: 10px;
+   position: absolute;
+   top: 100vh;
+}
+
+/* informatio */
+.input {
+   padding: 20px 25px;
+   background: rgb(233, 233, 233);
+   margin: 5px;
+   border-radius: 5px;
+}
+
+input {
+   background: transparent;
+   border: none;
+   font-size: larger;
+}
+
+input:focus {
+   outline: none;
+}
+
+.send-mss {
+   font-size: 1.5em;
+   margin: 40px auto;
+   text-align: center;
+}
+
+h3 {
+   background: rgb(74, 73, 73);
+   display: inline;
+   padding: 16px 40px;
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+}
+
+h3:hover {
+   background: gray;
+}
+
+/* road */
+.road {
+   height: 57vh;
+}
+
+.copy {
+   position: absolute;
+   top: 250vh;
+   width: 100%;
+   background: #000;
+
+}
+
+.cp {
+   text-align: center;
+   padding: 100px;
+   color: #fff;
+}
